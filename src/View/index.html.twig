@@ -1,12 +1,17 @@
 {% extends 'base.html.twig' %}
+{% block title %}
+Product
+{% endblock %}
 {% block content %}
-    <div class="row">
 
-    </div>
-    <h1>Thanos pomper sur Darkseid</h1>
-    <ul>
+
+    <h1>Darseid</h1>
+    <ul class="row">
     {% for product in products %}
-        <button class="btn btn-primary" type="submit">{{ product }}</button>
+        <li class=" row col-3">
+        <button class="btn btn-primary d-block" type="submit">{{ product }}</button>
+        </li>
     {% endfor %}
     </ul>
+
 {% endblock content %}

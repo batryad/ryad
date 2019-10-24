@@ -1,6 +1,6 @@
 <?php
 require '../vendor/autoload.php';
-$products = ['product1','product2','product3','product4','products5'];
+$products = ['Hugo Strange','Deathstroke','Harvey Dent','Green Lantern','Jason Todd','Deadshot'];
 
 
 $loader = new Twig\Loader\FilesystemLoader('../src/View');
